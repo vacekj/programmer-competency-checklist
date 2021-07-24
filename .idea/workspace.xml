@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aac199b8-d01f-4442-a213-6ff0c43f2bdb" name="Default Changelist" comment="programmer competency matrix">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="aac199b8-d01f-4442-a213-6ff0c43f2bdb" name="Default Changelist" comment="fix: add eslint">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <workItem from="1612190573314" duration="671000" />
       <workItem from="1612191252048" duration="20000" />
       <workItem from="1612191283717" duration="631000" />
-      <workItem from="1627130541696" duration="9515000" />
+      <workItem from="1627130541696" duration="10420000" />
     </task>
     <task id="LOCAL-00001" summary="programmer competency matrix">
       <created>1627140143010</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627140143010</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix: add eslint">
+      <created>1627140422137</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627140422137</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="programmer competency matrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="programmer competency matrix" />
+    <MESSAGE value="fix: add eslint" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: add eslint" />
   </component>
 </project>

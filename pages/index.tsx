@@ -71,8 +71,21 @@ function CategoryView(props: { category: Category }) {
 								checked={checked[rowNumber][colNumber]}
 								onClick={() => {
 									let newChecked = [...checked];
-									newChecked[rowNumber][colNumber] =
-										!newChecked[rowNumber][colNumber];
+									if (checked[rowNumber][colNumber]) {
+										// uncheck this and any following tiles
+										for (
+											let i = colNumber;
+											i < row.length;
+											i++
+										) {
+											newChecked[rowNumber][i] = false;
+										}
+									} else {
+										// check this and any previous tiles
+										for (let i = 0; i <= colNumber; i++) {
+											newChecked[rowNumber][i] = true;
+										}
+									}
 									setChecked(newChecked);
 								}}
 							>
